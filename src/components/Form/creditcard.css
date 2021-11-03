@@ -1,0 +1,112 @@
+input {
+    border: none;
+    border-bottom: 2px solid red;
+    padding : 10px;
+    margin: 2px;
+    width : 60%;
+    text-transform: capitalize;
+}
+
+label {
+    text-transform: uppercase;
+    /* margin-top : 10px; */
+    position: relative;
+    top : 0;
+}
+.left-container {
+    margin-left:  30%;
+}
+.nameIcon {
+    position: relative;
+    bottom : 30px;
+    right : 28%;
+    color : #ee8b99;
+}
+.ccIcon {
+    position: relative;
+    bottom : 40px;
+    right : 28%;
+    color : #ee8b99;
+
+}
+.monthIcon, .yearIcon, .cvvIcon {
+    color : #ee8b99;
+    position: relative;
+    right : 15%;
+    top : 10px;
+
+}
+
+
+input[type = text]
+ {
+     color: black;
+            padding: 10px 30px;
+            margin: 5px 0;
+            box-sizing: border-box;
+ }
+
+#month, #year, #cvv {
+    width : 15%;
+}
+.row {
+    display: flex;
+    margin-left : 45px;
+}
+.cName, .cNumber {
+    position: relative;
+    right: 18%;
+    font-size: 11px;
+}
+#cNumber {
+    margin-bottom: 15px;
+}
+.month, .year, .cvv {
+    font-size: 11px;
+    position: relative;
+    left : 13%;
+    top: -10px;
+
+}
+
+.cdata {
+    position: absolute;
+    top: 21%;
+    left: 19%;
+    width: 15%;
+    height: 15%;
+    padding: 67px 85px;
+    background: #f6425b;
+    color : #ffffff;
+    border-radius: 25px;
+    box-shadow: 47px 66px 12px 6px darkgrey;
+}
+
+
+
+
+
+.red {
+    color : #f6425b;
+
+}
+.submit {
+width : 25%;
+background: #f6425b;
+border-radius: 25px;
+text-transform: uppercase;
+color : #ffffff;
+font-size: 14px;
+}
+
+.cTitle {
+    text-transform: uppercase;
+    position: absolute;
+    top : 6%;
+    right : 6%;
+    font-size: 23px;
+}
+.rowData {
+    display: flex;
+    margin-top: 10%;
+}
